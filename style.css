@@ -1,0 +1,154 @@
+*{
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.Order{
+ 
+    margin-left: 2.5rem;
+}
+.order_detalis{
+    font-weight: bold;
+    margin-left: 2.5rem;
+}
+
+.status{
+    color: orange;
+}
+
+
+
+
+
+.container{
+    display: grid;
+    grid-template-columns: 60% 30%;
+    gap: 15%;
+}
+
+.container1{
+    display: grid;
+    grid-template-columns: 36% 13% 20% 23% 10%; 
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+    border-radius: 1rem;
+    width:100%;
+    padding: 1rem;
+    margin-left: 2rem;
+    border-bottom: 1px solid rgb(224, 224, 224) ;  
+
+}
+.p1{
+    margin-top: 2.5rem;
+}
+.desc{
+    margin-bottom: 1rem;
+}
+.tax_desc{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 200%;
+    width: 100%;
+    padding: 10px;
+    margin-left: 15px;
+    margin-top: 15px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.p2{
+    margin-bottom: 1rem;
+}
+.p_desc p{
+    color: grey;
+}
+
+.p_desc{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    padding: 8px;
+    width: 75%;
+    background-color: rgb(247, 247, 247);
+}
+.p_desc ul {margin-top: 0;}
+.p_desc ul li{
+    margin-top: 15px;
+    
+}
+
+
+
+.product{
+    display: flex;
+}
+
+
+
+
+.btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    margin-left: 30px;
+    
+}
+
+.btn1{
+    background-color: white;
+    color: rgb(63, 63, 214);
+    border: 2px solid rgb(63, 63, 214);
+    border-radius: 30px;
+    width: 250px;
+}
+.btn1:hover{
+    color: #fff;
+    background-color: grey;
+}
+
+.cancel{
+    color: red;
+    font-weight: bold;
+    margin-left: 16%;
+}
+
+ 
+@media only screen and (max-width: 1200px) {
+    body{
+        background-color:rgb(228, 228, 228)
+    }
+    .container{
+        background-color:white;
+        padding: 20px;
+    }
+  .container{
+      display:block;
+   }   
+   .product{
+     width: 85%;
+  }
+
+
+  .p_desc{
+      max-width: 91%;
+
+  }
+   }
+
+   @media only screen and (max-width: 850px) {
+     .container{
+      display:block;
+   }   
+  
+   .p_desc{
+      max-width: 96%;
+
+  }
+
+  
+  
+  .btn1{
+      grid-column: 2/ 1;
+  
+  }
+   }
+
